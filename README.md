@@ -2,7 +2,7 @@
 Simple object pooling plugin for Unity3D game engine
 
 ## Quick start
-#### 1. Download and import package to your project (Assets->Import Package->Custom Package).
+#### 1. [Download](https://github.com/alexdebur/UnityNightPool/releases) and import package to your project (Assets->Import Package->Custom Package).
 
 #### 2. Add PoolObject script to all your prefabs that you need to use in pool
 
