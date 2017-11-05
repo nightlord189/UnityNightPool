@@ -16,7 +16,11 @@ Simple object pooling plugin for Unity3D game engine
 #### 5. Add all your prefabs to this scriptable object and set custom id for each.
 ![ex](http://screenshot.ru/upload/images/2017/11/05/4345d1.jpg)
 
-#### 6. All ready! Now for spawn object add only one line (instead of Instantiate method):
+#### 6. Add plugin namespace to your .cs file:
+
+    using UnityNightPool;
+
+#### 7. All ready! Now for spawn object add only one line (instead of Instantiate method):
 
     PoolManager.Get(int key);
     
